@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: flex;
+            width: 1500px;
+            height: 750px;
+            background-image: linear-gradient( #C4C4C4, #4DC7BD);
+            justify-self: center;
+
+        }
+        .login{
+            border-radius: 5px;
+            display: flex;
+            flex-direction: column;
+            width: 320px;
+            height: auto;
+            background-color: white;
+            margin: auto;
+            gap: 30px;
+            padding-bottom: 20px;
+        }
+        .login-user{
+            margin-top: 20px;
+            margin-left: 20px;
+            width: 272px;
+            height: 70px;
+        }
+        h3{
+            margin: 0px;
+        }
+        .login-user input{
+            height: 40px;
+            width: 272px;
+            border-radius: 10px;
+        }
+        .login-password{
+            margin-top: 20px;
+            margin-left: 20px;
+            width: 272px;
+            height: 70px;
+        }
+        .login-password input{
+            height: 40px;
+            width: 272px;
+            border-radius: 10px;
+        }
+        .sign-in{
+            width: 272px;
+            height: 45px;
+            background-color: black;
+            border-radius: 5px;
+            margin-left: 20px;
+            margin-top: 20px;
+            display: flex;
+        }
+       .sign-in p{
+            color: aliceblue;
+            width: 100%;
+            text-align: center;
+        }
+        .back{
+            margin-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="login">
+            <div class="login-user">
+                <h3>Email</h3> <br> <input type="email">
+            </div>
+            <div class="login-password">
+                <h3>Password</h3> <br> <input type="password">
+            </div>
+            <div class="sign-in">
+                <p>Sign In</p>
+            </div>
+            <div class="back">
+                <a href="/"><b>Forgot password?</b> </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
